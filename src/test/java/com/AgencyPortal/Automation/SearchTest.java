@@ -10,7 +10,7 @@ import com.agencyportal.pages.HomePage;
 import com.agencyportal.pages.SearchPage;
 
 import Base.Base;
-
+//removed spaces
 public class SearchTest extends Base{
 
 	public WebDriver driver;
