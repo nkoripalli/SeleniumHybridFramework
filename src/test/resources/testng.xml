@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AgencyPortal Automation Suite">
+<listeners>
+	<listener class-name="com.agencyportal.listeners.MyListeners"/>
+</listeners>
+  <test thread-count="5" name="AgencyPortal Automation Tests">
+    <classes>
+      <class name="com.AgencyPortal.Automation.RegisterTest"/>
+      <class name="com.AgencyPortal.Automation.LoginTest"/>
+      <class name="com.AgencyPortal.Automation.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
